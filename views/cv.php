@@ -1,32 +1,32 @@
 <?php include(__DIR__ . "/layouts/header.php"); ?>
 
 <div class="container">
-    <div class="page-inner no-page-title mt-5">
+    <div class="page-inner no-page-title fst-italic mt-5">
         <div id="main-wrapper">
             <div class="row">
 
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card card-white grid-margin">
                         <div class="card-heading clearfix">
-                            <h4 class="card-title">MI PERFIL</h4>
+                            <h4 class="card-title fst-normal">MI PERFIL</h4>
                         </div>
                         <div class="card-body user-profile-card">
                             <img src="/formulario_may/assets/img/may.webp" class="user-profile-image rounded-circle img-fluid" alt="" />
                             <h4 class="text-center h6 mt-2">Mayra Fabiola Mallqui Paccini</h4>
                             <p class="lead fs-6 fst-italic">Ingeniería de Software con IA</p>
                         </div>
-                        <hr/>
+                        <hr />
                         <div class="card-heading clearfix mt-1">
-                            <h4 class="card-title">Conocimientos en:</h4>
+                            <h4 class="card-title fst-normal">Conocimientos en:</h4>
                         </div>
-                        <ul style="list-style-type:square" class="mb-2">
-                            <li>Python básico</li>
-                            <li>PHP básico</li>
-                            <li>Bootstrap</li>
-                            <li>Javascript</li>
-                            <li>HTML básico</li>
-                            <li>CSS básico</li>
-                            <li>GitHub</li>
+                        <ul class="list-group mb-2">
+                            <li class="list-group-item">Python básico</li>
+                            <li class="list-group-item">PHP básico</li>
+                            <li class="list-group-item">Bootstrap</li>
+                            <li class="list-group-item">Javascript</li>
+                            <li class="list-group-item">HTML básico</li>
+                            <li class="list-group-item">CSS básico</li>
+                            <li class="list-group-item">GitHub</li>
                         </ul>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card card-white grid-margin">
                         <div class="card-heading clearfix">
-                            <h4 class="card-title">Sobre mí:</h4>
+                            <h4 class="card-title fst-normal">Sobre mí:</h4>
                         </div>
                         <div class="card-body mb-3">
                             <p class="mb-0 lh-base">
@@ -46,7 +46,7 @@
                         </div>
                         <hr/>
                         <div class="card-heading clearfix">
-                            <h4 class="card-title">Formación Académica:</h4>
+                            <h4 class="card-title fst-normal">Formación Académica:</h4>
                         </div>
                         <div class="card-body">
                             <p>COLEGIO: I.E.P. Siglo XXI</p>
@@ -59,7 +59,7 @@
                 <div class="col-12 col-md-12 col-lg-4 mb-4">
                     <div class="card card-white grid-margin">
                         <div class="card-heading clearfix">
-                            <h4 class="card-title">Hobbies:</h4>
+                            <h4 class="card-title fst-normal">Hobbies:</h4>
                         </div>
                         <div class="card-body">
                             <div class="team">
@@ -78,7 +78,7 @@
                             </div>
                             <hr />
                             <div class="card-heading clearfix mt-2">
-                                <h4 class="card-title">Información de contacto:</h4>
+                                <h4 class="card-title fst-normal">Información de contacto:</h4>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
