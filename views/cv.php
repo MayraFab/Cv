@@ -1,4 +1,4 @@
-<?php include(__DIR__ . "/layouts/header.php"); ?>
+<?php include(__DIR__ . "/includes/header.php"); ?>
 
 <div class="container">
     <div class="page-inner no-page-title fst-italic mt-5">
@@ -28,6 +28,7 @@
                             <li class="list-group-item">CSS básico</li>
                             <li class="list-group-item">GitHub</li>
                         </ul>
+                    <button id="btnclick">Click!</button>
                     </div>
                 </div>
 
@@ -44,7 +45,30 @@
                                 trabajo en equipo y seguir desarrollándome como persona y profesional.
                             </p>
                         </div>
-                        <hr/>
+
+                        <div id="carrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/php.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/ing.webp" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/web.webp" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+
+                        <hr />
                         <div class="card-heading clearfix">
                             <h4 class="card-title fst-normal">Formación Académica:</h4>
                         </div>
@@ -62,51 +86,64 @@
                             <h4 class="card-title fst-normal">Hobbies:</h4>
                         </div>
                         <div class="card-body">
-                            <div class="team">
-                                <div class="team-member">
-                                    <img src="assets/img/bajo.webp" class="img-fluid" alt="">
-                                    <span>Tocar bajo eléctrico</span>
-                                </div>
-                                <div class="team-member">
-                                    <img src="assets/img/contrabajo.webp" class="img-fluid" alt="">
-                                    <span>Tocar contrabajo</span>
-                                </div>
-                                <div class="team-member">
-                                    <img src="assets/img/guitarranegra.webp" class="img-fluid" alt="">
-                                    <span>Tocar guitarra</span>
+                            <div class="team-member d-flex align-items-center gap-3">
+                                <img src="assets/img/bajo.webp" class="img-fluid" style="width: 80px;" alt="">
+                                <div>
+                                    <p class="mb-0">Tocar bajo eléctrico</p>
+                                    <div class="badge bg-secondary">Nivel intermedio</div>
                                 </div>
                             </div>
-                            <hr />
-                            <div class="card-heading clearfix mt-2">
-                                <h4 class="card-title fst-normal">Información de contacto:</h4>
-                            </div>
-                            <div class="card-body">
-                                <div class="table-responsive">
-                                    <table class="table table-borderless mb-0 text-muted">
-                                        <tbody>
-                                            <tr>
-                                                <th>Email:</th>
-                                                <td>1582403@senati.pe</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Número de celular:</th>
-                                                <td>(+51) 936 858 464</td>
-                                            </tr>
-                                            <tr>
-                                                <th>Dirección:</th>
-                                                <td>Lima - Perú</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                            <div class="team-member d-flex align-items-center gap-3">
+                                <img src="assets/img/contrabajo.webp" class="img-fluid" style="width: 80px;" alt="">
+                                <div>
+                                <p class="mb-0">Tocar contrabajo</p>
+                                    <div class="badge bg-secondary">Nivel básico</div>
                                 </div>
+                            </div>
+                            <div class="team-member d-flex align-items-center gap-3">
+                                <img src="assets/img/guitarranegra.webp" class="img-fluid" style="width: 80px;" alt="">
+                                <div>
+                                    <p class="mb-0">Tocar guitarra</p>
+                                    <div class="badge bg-primary">Nivel básico</div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="card-heading clearfix mt-2">
+                            <h4 class="card-title fst-normal">Información de contacto:</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="team-icon gap-5">
+                                <img src="assets/img/correo.webp" style="width: 20px" alt=" ">
+                                <strong class="fst-normal">Correo:</strong><br>
+
+                                <a href="mailto:1582403@senati.pe" class="text-decoration-underline"><span>1582403@senati.pe</span></a>
+                            </div>
+                            <br>
+                            <div class="">
+                                <img src="assets/img/telefono.webp" style="width: 20px" alt=" ">
+                                <strong class="fst-normal">Teléfono:</strong><br>
+                                <span>(+51) 936 858 464</span>
+                            </div>
+                            <br>
+                            <div class="team-icon">
+                                <img src="assets/img/direccion.webp" style="width: 20px" alt=" ">
+                                <strong class="fst-normal">Dirección:</strong><br>
+                                <span>Lima - Perú</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="page-footer text-center">
-                <p>Derechos de autor © 2026 Todos los derechos reservados.</p>
+
+            <div class="col-12 text-center mt-4">
+                <a href="#top" id="botonArriba" class="btn bg-dark-subtle btn-outline-dark btn-fixed rounded-circle d-xxl-none"> ↑ </a>
             </div>
+            
+        </div>
+        <div class="page-footer text-center">
+            <p>Derechos de autor © 2026 Todos los derechos reservados.</p>
         </div>
     </div>
-    <?php include("layouts/footer.php"); ?>
+</div>
+<?php include("includes/footer.php"); ?>
