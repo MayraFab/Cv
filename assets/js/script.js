@@ -35,9 +35,9 @@ botonArriba.addEventListener('click', () => {
 });
 btnclick.addEventListener('click', () => {
     Swal.fire({
-        title: "Habilidades",
-        text: "Habilidades obtenidas.",
-        imageUrl: "https://unsplash.it/400/200",
+        title: "CISCO",
+        text: "Certificados obtenidas.",
+        imageUrl: "assets/img/cisco.webp",
         imageWidth: 400,
     imageHeight: 200,
     imageAlt: "Custom image"

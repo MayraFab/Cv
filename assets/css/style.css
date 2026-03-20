@@ -4,7 +4,7 @@ body {
 }
 
 .page-inner {
-        box-shadow: 0 0.2rem 0.8rem rgba(196, 196, 196, 0.4);
+    box-shadow: 0 0.2rem 0.8rem rgba(196, 196, 196, 0.4);
     position: relative;
     min-height: calc(100% - 56px);
     padding: 20px 30px 40px 30px;

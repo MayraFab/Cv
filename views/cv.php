@@ -1,6 +1,6 @@
 <?php include(__DIR__ . "/includes/header.php"); ?>
 
-<div class="container">
+<div class="container bg-light margin-top-20">
     <div class="page-inner no-page-title fst-italic mt-5">
         <div id="main-wrapper">
             <div class="row">
@@ -90,21 +90,21 @@
                                 <img src="assets/img/bajo.webp" class="img-fluid" style="width: 80px;" alt="">
                                 <div>
                                     <p class="mb-0">Tocar bajo eléctrico</p>
-                                    <div class="badge bg-secondary">Nivel intermedio</div>
+                                    <div class="badge" style="background-color: DarkBlue;">Nivel intermedio</div>
                                 </div>
                             </div>
                             <div class="team-member d-flex align-items-center gap-3">
                                 <img src="assets/img/contrabajo.webp" class="img-fluid" style="width: 80px;" alt="">
                                 <div>
                                 <p class="mb-0">Tocar contrabajo</p>
-                                    <div class="badge bg-secondary">Nivel básico</div>
+                                    <div class="badge" style="background-color: DarkBlue;">Nivel básico</div>
                                 </div>
                             </div>
                             <div class="team-member d-flex align-items-center gap-3">
                                 <img src="assets/img/guitarranegra.webp" class="img-fluid" style="width: 80px;" alt="">
                                 <div>
                                     <p class="mb-0">Tocar guitarra</p>
-                                    <div class="badge bg-primary">Nivel básico</div>
+                                    <div class="badge" style="background-color: DarkBlue;">Nivel básico</div>
                                 </div>
                             </div>
                         </div>
@@ -117,7 +117,7 @@
                                 <img src="assets/img/correo.webp" style="width: 20px" alt=" ">
                                 <strong class="fst-normal">Correo:</strong><br>
 
-                                <a href="mailto:1582403@senati.pe" class="text-decoration-underline"><span>1582403@senati.pe</span></a>
+                                <a href="mailto:1582403@senati.pe" class="text-decoration-underline text-dark"><span>1582403@senati.pe</span></a>
                             </div>
                             <br>
                             <div class="">
@@ -132,6 +132,12 @@
                                 <span>Lima - Perú</span>
                             </div>
                         </div>
+                        <ul class="social-icon list-inline mb-0 mt-3 d-flex justify-content-center gap-5">
+                            <li><a href="https://www.facebook.com/mayrafabiolamallqui" class="social-icon-link fa-brands fa-facebook text-decoration-none"></a></li>
+                            <li><a href="https://www.instagram.com/may_paccini/" class="social-icon-link fa-brands fa-instagram text-decoration-none"></a></li>
+                            <li><a href="https://www.github.com/MayFab" class="social-icon-link fa-brands fa-github text-decoration-none"></a></li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
