@@ -15,10 +15,10 @@
                             <h4 class="text-center h6 mt-2">Mayra Fabiola Mallqui Paccini</h4>
                             <p class="lead fs-6 fst-italic">Ingeniería de Software con IA</p>
                         </div>
-                        <ul class="social-icon list-inline d-flex justify-content-center gap-5">
-                            <li><a href="https://www.facebook.com/mayrafabiolamallqui" class="social-icon-link fa-brands fa-facebook text-decoration-none"></a></li>
-                            <li><a href="https://www.instagram.com/may_paccini/" class="social-icon-link fa-brands fa-instagram text-decoration-none"></a></li>
-                            <li><a href="https://www.github.com/MayFab" class="social-icon-link fa-brands fa-github text-decoration-none"></a></li>
+                        <ul class="list-inline d-flex justify-content-center gap-5">
+                            <li><a href="https://www.facebook.com/mayrafabiolamallqui" class="social-icon-link fa-brands fa-facebook fa-2x text-decoration-none"></a></li>
+                            <li><a href="https://www.instagram.com/may_paccini/" class="social-icon-link fa-brands fa-instagram fa-2x text-decoration-none"></a></li>
+                            <li><a href="https://www.github.com/MayFab" class="social-icon-link fa-brands fa-github fa-2x text-decoration-none"></a></li>
                         </ul>
                         <hr />
                         <div class="card-heading clearfix mt-1">
@@ -128,13 +128,15 @@
                             <div class="">
                                 <img src="assets/img/telefono.webp" style="width: 20px" alt=" ">
                                 <strong class="fst-normal">Teléfono:</strong><br>
-                                <span>(+51) 936 858 464</span>
+                                <span>(+51) 936 858 464</span><br>
+                                <span>(+51) 949 553 618</span>
                             </div>
                             <br>
                             <div class="team-icon">
                                 <img src="assets/img/direccion.webp" style="width: 20px" alt=" ">
                                 <strong class="fst-normal">Dirección:</strong><br>
-                                <span>Lima - Perú</span>
+                                <span>Lima - Perú</span><br>
+                                <span>San Martin de Porres</span>
                             </div>
                         </div>
                     </div>
