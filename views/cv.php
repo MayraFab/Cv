@@ -1,7 +1,7 @@
 <?php include(__DIR__ . "/includes/header.php"); ?>
 
-<div class="container bg-light margin-top-20">
-    <div class="page-inner no-page-title fst-italic mt-5">
+<div class="container margin-top-20" style="background-color: darkgrey;">
+    <div class="page-inner no-page-title fst-italic mt-4 mb-4" style="box-shadow: 0 0rem 0.9rem rgba(122, 122, 122, 0.65); position: relative; padding: 20px 30px 40px 30px; background-color: #b5b5b5;">
         <div id="main-wrapper">
             <div class="row">
 
@@ -15,6 +15,11 @@
                             <h4 class="text-center h6 mt-2">Mayra Fabiola Mallqui Paccini</h4>
                             <p class="lead fs-6 fst-italic">Ingeniería de Software con IA</p>
                         </div>
+                        <ul class="social-icon list-inline d-flex justify-content-center gap-5">
+                            <li><a href="https://www.facebook.com/mayrafabiolamallqui" class="social-icon-link fa-brands fa-facebook text-decoration-none"></a></li>
+                            <li><a href="https://www.instagram.com/may_paccini/" class="social-icon-link fa-brands fa-instagram text-decoration-none"></a></li>
+                            <li><a href="https://www.github.com/MayFab" class="social-icon-link fa-brands fa-github text-decoration-none"></a></li>
+                        </ul>
                         <hr />
                         <div class="card-heading clearfix mt-1">
                             <h4 class="card-title fst-normal">Conocimientos en:</h4>
@@ -28,7 +33,7 @@
                             <li class="list-group-item">CSS básico</li>
                             <li class="list-group-item">GitHub</li>
                         </ul>
-                    <button id="btnclick">Click!</button>
+                        <button id="btnclick">Click!</button>
                     </div>
                 </div>
 
@@ -96,7 +101,7 @@
                             <div class="team-member d-flex align-items-center gap-3">
                                 <img src="assets/img/contrabajo.webp" class="img-fluid" style="width: 80px;" alt="">
                                 <div>
-                                <p class="mb-0">Tocar contrabajo</p>
+                                    <p class="mb-0">Tocar contrabajo</p>
                                     <div class="badge" style="background-color: DarkBlue;">Nivel básico</div>
                                 </div>
                             </div>
@@ -132,20 +137,14 @@
                                 <span>Lima - Perú</span>
                             </div>
                         </div>
-                        <ul class="social-icon list-inline mb-0 mt-3 d-flex justify-content-center gap-5">
-                            <li><a href="https://www.facebook.com/mayrafabiolamallqui" class="social-icon-link fa-brands fa-facebook text-decoration-none"></a></li>
-                            <li><a href="https://www.instagram.com/may_paccini/" class="social-icon-link fa-brands fa-instagram text-decoration-none"></a></li>
-                            <li><a href="https://www.github.com/MayFab" class="social-icon-link fa-brands fa-github text-decoration-none"></a></li>
-                        </ul>
-
                     </div>
                 </div>
             </div>
 
             <div class="col-12 text-center mt-4">
-                <a href="#top" id="botonArriba" class="btn bg-dark-subtle btn-outline-dark btn-fixed rounded-circle d-xxl-none"> ↑ </a>
+                <a href="#top" id="botonArriba" class="btn bg-dark-subtle btn-outline-dark btn-fixed rounded-circle d-xxl-none" style="position: fixed; bottom: 20px; right: 20px; display: block; z-index: 1000;"> ↑ </a>
             </div>
-            
+
         </div>
         <div class="page-footer text-center">
             <p>Derechos de autor © 2026 Todos los derechos reservados.</p>
